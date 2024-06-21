@@ -1,0 +1,214 @@
+.title-style {
+  width: 90%;
+  max-width: 1500px;
+  position: relative;
+  display: inline-block;
+  height: 85px;
+  flex-shrink: 0;
+  font-size: 38px;
+  padding: 2%;
+  margin: 0 auto;
+  text-align: center;
+}
+.main-frame{
+  background-color: #8DECB4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  padding: 20px; 
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 350px); 
+    text-align: justify;
+    font-size: 20 px;
+}
+.title-frame {
+  border-radius: 25px;
+  background-color: #FFF5E0; 
+  width: 100%;
+  max-width: 1325px; 
+  padding: 20px; 
+  box-sizing: border-box;
+  align-items: center;
+  transform: translateX(0%);
+  flex-flow: column;
+  margin:auto;
+}
+
+.content-container2 {
+  position: relative;
+  border-radius: 25px;
+  background-color: #FFF5E0; 
+  width: 100%;
+  max-width:1325px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2%;
+  box-sizing: border-box;
+  margin-top: 20px; 
+  transform: translate(0%);
+  flex-flow: column;
+}
+
+
+.overview,
+.span8 {
+  white-space: pre-wrap;
+  font-size: 2vw;
+  text-align: center;
+  align-items: start;
+  line-height:0px;
+  font-weight: bold;
+}
+
+.span8 {
+  font-weight: 300;
+}
+
+.span8,
+.span9 {
+  font-family: var(--font-montserrat);
+  font-size: 20px;
+}
+
+.our-private-tutoring2,
+.our-private-tutoring-course-is
+{
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: left;
+    line-height: 1.5;
+    font-weight:350;
+    
+}
+.our-private-tutoring-course-is2
+{
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: left;
+    line-height: 1.2;
+    font-weight:400;
+    
+}
+.blank-line8 {
+  margin: 10px;
+  font-size: 25px;
+  text-align: justify;
+  text-align-last: center;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.our-private-tutoring-course-is3 {
+  font-weight:400;
+  font-style: italic;
+  line-height: 1;
+}
+
+.science2 {
+  font-weight: bold;
+  white-space: pre-wrap;
+}
+
+.physics-chemistry-biology2,
+.span10 {
+  font-weight: 300;
+  font-family: var(--font-montserrat);
+}
+
+.overview-our-private-container {
+  width: 100%;
+  max-width: 1225px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  padding: 2%;
+}
+
+.rightrectangle {
+  margin: auto;
+  background-color: #FFF5E0;
+  border-radius: 25px;
+  width: 320px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding:2%;
+  box-sizing: border-box;
+  margin-top: 200px; 
+}
+
+
+.personalized-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 557px;
+  height: 329px; ;
+  align-items: flex-end;
+}
+
+.rightrectangle-content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+ line-height: 2;
+ font-size: 20px;
+ align-self: flex-end;
+ padding-left: 0px;
+}
+
+.button-2{
+  cursor: pointer;
+  border: 0;
+  background-color: #1eb2a6;
+  border-radius: 8px;
+  height: 52px;
+  width: 138px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+.instructional-paradigm2,
+.duration-102,
+.pricing-dynamic2,
+.knowledge-sharing-icon2,
+.time-icon2,
+.exchange-rupee-icon2,
+.content-of-card {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right:0px; 
+  text-align: justify;
+  align-self: start;
+
+}
+
+.instructional-paradigm2,
+.duration-102,
+.pricing-dynamic2 {
+  font-size: 17px;
+  margin-bottom: 5px;
+  align-self: baseline;
+}
+
+.knowledge-sharing-icon2,
+.time-icon2,
+.exchange-rupee-icon2 {
+  width: 25px;
+  height: 25px;
+  margin:13px;
+}
